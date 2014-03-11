@@ -1,0 +1,545 @@
+/* line 12, ../sass/large.css.scss */
+.container {
+  width: 70%;
+  max-width: 980px;
+  margin: auto;
+  overflow: hidden;
+}
+/* line 17, ../sass/large.css.scss */
+.container.dashboard {
+  overflow: visible;
+}
+/* line 20, ../sass/large.css.scss */
+.container#news-home {
+  width: 100%;
+  padding: 0 15% 60px 15%;
+  max-width: 100%;
+  margin-bottom: -60px;
+}
+/* line 25, ../sass/large.css.scss */
+.container#news-home #news-home-content {
+  max-width: 980px;
+  margin: auto;
+}
+/* line 32, ../sass/large.css.scss */
+.container img {
+  max-width: 100%;
+}
+/* line 34, ../sass/large.css.scss */
+.container img.areas_work {
+  display: inline-block;
+  float: right;
+  max-width: 50%;
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+/* line 42, ../sass/large.css.scss */
+.container section.group {
+  width: 30.3%;
+  margin-right: 4.5%;
+}
+/* line 45, ../sass/large.css.scss */
+.container section.group:nth-child(2n) {
+  margin-right: 4.5%;
+}
+/* line 48, ../sass/large.css.scss */
+.container section.group:nth-child(2n+3) {
+  clear: none;
+}
+/* line 51, ../sass/large.css.scss */
+.container section.group:nth-child(3n) {
+  margin-right: 0;
+}
+/* line 54, ../sass/large.css.scss */
+.container section.group:nth-child(3n+4) {
+  clear: left;
+}
+/* line 57, ../sass/large.css.scss */
+.container section.group#twitter {
+  padding: 1.5%;
+}
+/* line 59, ../sass/large.css.scss */
+.container section.group#twitter #top_twitter {
+  width: 100%;
+  padding: 2% 0 5% 0;
+}
+/* line 62, ../sass/large.css.scss */
+.container section.group#twitter #top_twitter div.button {
+  width: 120px;
+  margin-right: 1.75%;
+}
+/* line 67, ../sass/large.css.scss */
+.container section.group#twitter .tweet {
+  padding: 3% 0;
+}
+/* line 69, ../sass/large.css.scss */
+.container section.group#twitter .tweet small {
+  margin-bottom: 3%;
+}
+/* line 74, ../sass/large.css.scss */
+.container section.group:last-child {
+  margin-right: 0;
+}
+/* line 77, ../sass/large.css.scss */
+.container section.group.staff {
+  width: 22%;
+  margin-right: 4%;
+}
+/* line 81, ../sass/large.css.scss */
+.container section.group.staff:nth-child(2n) {
+  margin-right: 4%;
+}
+/* line 85, ../sass/large.css.scss */
+.container section.group.staff:nth-child(3n) {
+  margin-right: 4%;
+}
+/* line 88, ../sass/large.css.scss */
+.container section.group.staff:nth-child(3n+4) {
+  clear: none;
+}
+/* line 91, ../sass/large.css.scss */
+.container section.group.staff:nth-child(4n) {
+  margin-right: 0;
+}
+/* line 94, ../sass/large.css.scss */
+.container section.group.staff:nth-child(4n+5) {
+  clear: left;
+}
+/* line 99, ../sass/large.css.scss */
+.container .column-1-3 {
+  width: 35%;
+  float: left;
+  padding-right: 9%;
+  margin-right: 0;
+}
+/* line 104, ../sass/large.css.scss */
+.container .column-1-3.right {
+  float: right;
+  padding: 0 0 0 9%;
+  padding-top: 60px;
+}
+/* line 109, ../sass/large.css.scss */
+.container .column-1-3 img.employee_pic {
+  width: 100%;
+  margin-top: 60px;
+}
+/* line 113, ../sass/large.css.scss */
+.container .column-1-3 img.partner_logo {
+  width: 70%;
+  margin-top: 30px;
+}
+/* line 118, ../sass/large.css.scss */
+.container .column-2-3 {
+  margin-top: -50px;
+  padding-top: 110px;
+  width: 65%;
+  float: right;
+}
+/* line 123, ../sass/large.css.scss */
+.container .column-2-3.left {
+  float: left;
+}
+
+/* line 130, ../sass/large.css.scss */
+div.dashboard section.group {
+  width: 47%;
+  margin-right: 4.5%;
+  overflow: visible;
+}
+
+/* line 140, ../sass/large.css.scss */
+div.project-team {
+  overflow: hidden;
+  padding-top: 10px;
+}
+/* line 143, ../sass/large.css.scss */
+div.project-team section {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+}
+
+/* line 150, ../sass/large.css.scss */
+div#nav {
+  width: 70%;
+  max-width: 980px;
+  margin: auto;
+  overflow: hidden;
+}
+/* line 154, ../sass/large.css.scss */
+div#nav a#home_link {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 26%;
+  float: left;
+}
+/* line 160, ../sass/large.css.scss */
+div#nav a#home_link img {
+  width: 100%;
+  max-height: 100%;
+  display: block;
+  background: #4295d5;
+}
+/* line 167, ../sass/large.css.scss */
+div#nav ul#large-menu {
+  width: 65%;
+  padding: 0 5px;
+  margin: 0;
+  overflow: hidden;
+  float: right;
+}
+/* line 173, ../sass/large.css.scss */
+div#nav ul#large-menu li {
+  padding: 0 0 0 2%;
+  line-height: 37px;
+}
+/* line 178, ../sass/large.css.scss */
+div#nav ul#large-menu#button-menu li {
+  font-size: 0.85em;
+}
+
+/* line 185, ../sass/large.css.scss */
+div.dashboard-container {
+  margin: 0;
+}
+
+/* line 189, ../sass/large.css.scss */
+div.container#other_projects {
+  padding-bottom: 6em;
+  margin-bottom: -60px;
+}
+
+/* line 194, ../sass/large.css.scss */
+div.container#other_projects h2.large_subheading#featured_projects {
+  width: 70%;
+  margin: 60px auto;
+}
+
+/* line 199, ../sass/large.css.scss */
+div.container#other_projects {
+  width: 70%;
+  margin: 60px auto -60px auto;
+}
+
+/* line 204, ../sass/large.css.scss */
+div.heading {
+  width: 70%;
+  max-width: 980px;
+}
+/* line 207, ../sass/large.css.scss */
+div.heading h1 {
+  font-size: 2.75em;
+  line-height: 1.25em;
+  display: inline-block;
+  width: 80%;
+}
+/* line 213, ../sass/large.css.scss */
+div.heading h2 {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+/* line 217, ../sass/large.css.scss */
+div.heading h1.short, div.heading h2.short, div.heading h2.shorter {
+  display: inline-block;
+}
+/* line 221, ../sass/large.css.scss */
+div.heading h1.short {
+  width: 70%;
+}
+/* line 225, ../sass/large.css.scss */
+div.heading h2.short {
+  width: 87%;
+}
+/* line 229, ../sass/large.css.scss */
+div.heading h2.shorter {
+  width: 64%;
+}
+
+/* line 233, ../sass/large.css.scss */
+div#featured_heading {
+  margin: 60px 0;
+}
+
+/* line 237, ../sass/large.css.scss */
+div#footer_container {
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+/* line 243, ../sass/large.css.scss */
+#footer {
+  width: 70%;
+  max-width: 980px;
+  margin: auto;
+}
+
+/* line 250, ../sass/large.css.scss */
+ul.footer li {
+  float: left;
+}
+/* line 253, ../sass/large.css.scss */
+ul.footer li#address {
+  text-align: right;
+  float: right;
+}
+
+/* line 259, ../sass/large.css.scss */
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 40em) {
+  /* #menu is the original menu */
+  /* line 265, ../sass/large.css.scss */
+  .js #menu {
+    display: none;
+  }
+
+  /* line 269, ../sass/large.css.scss */
+  .js .slicknav_menu {
+    display: block;
+  }
+}
+/* line 274, ../sass/large.css.scss */
+ul#large-menu {
+  display: block;
+}
+
+/* line 278, ../sass/large.css.scss */
+button#trigger-menu {
+  display: none;
+}
+
+/* line 282, ../sass/large.css.scss */
+div.column-1-3#data {
+  display: block;
+}
+
+/* line 286, ../sass/large.css.scss */
+div.column-1-3#data-small {
+  display: none;
+}
+
+/* line 290, ../sass/large.css.scss */
+div.data_policy-small {
+  display: none;
+}
+
+/* line 294, ../sass/large.css.scss */
+ul.subnav {
+  display: block;
+}
+/* line 296, ../sass/large.css.scss */
+ul.subnav li.header {
+  padding-left: 10px;
+}
+/* line 298, ../sass/large.css.scss */
+ul.subnav li.header:hover {
+  color: #5e5a5c;
+}
+
+/* line 304, ../sass/large.css.scss */
+ul.subnav-small {
+  display: none;
+}
+
+/* line 308, ../sass/large.css.scss */
+div.column-1-3#job_related_small {
+  display: none;
+}
+
+/* line 312, ../sass/large.css.scss */
+.container div.column-1-3#job_related {
+  display: block;
+  margin-bottom: 60px;
+}
+/* line 315, ../sass/large.css.scss */
+.container div.column-1-3#job_related div.button {
+  margin-bottom: 40px;
+}
+
+/* line 320, ../sass/large.css.scss */
+div.button#contact {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* line 325, ../sass/large.css.scss */
+div.column-1-3#save-link {
+  display: block;
+}
+
+/* line 329, ../sass/large.css.scss */
+div.column-1-3#save-link-small {
+  display: none;
+}
+
+/* line 333, ../sass/large.css.scss */
+.container div.column-2-3.left#job_application, div.column-2-3.left#job_description {
+  float: left;
+  width: 63%;
+}
+
+/* line 338, ../sass/large.css.scss */
+div.column-1-3.right#application-related {
+  padding-left: 9%;
+}
+
+/* line 342, ../sass/large.css.scss */
+.container .column-1-3 section.actions {
+  max-width: 100%;
+}
+
+/* line 347, ../sass/large.css.scss */
+div#news-item h1 {
+  line-height: 1.25em;
+}
+/* line 350, ../sass/large.css.scss */
+div#news-item section.actions#share {
+  font-size: 0.85em;
+}
+/* line 352, ../sass/large.css.scss */
+div#news-item section.actions#share span {
+  font-size: 1em;
+}
+
+/* line 358, ../sass/large.css.scss */
+.container div.column-1-3#news {
+  display: block;
+}
+
+/* line 362, ../sass/large.css.scss */
+.container div.column-2-3.left#news-item {
+  width: 63%;
+}
+
+/* line 366, ../sass/large.css.scss */
+div.container#other-news-small {
+  display: none;
+}
+
+/* line 370, ../sass/large.css.scss */
+select#sorting, div.search-field input {
+  font-size: 0.85em;
+}
+
+/* line 374, ../sass/large.css.scss */
+div.search-field i {
+  font-size: 0.85em;
+}
+
+/* line 379, ../sass/large.css.scss */
+ul#fields li, ul#content li, ul#fields-small li, ul#content-small li, ul#programmes li {
+  font-size: 1em;
+}
+/* line 381, ../sass/large.css.scss */
+ul#fields li.header, ul#content li.header, ul#fields-small li.header, ul#content-small li.header, ul#programmes li.header {
+  font-size: 1.25em;
+}
+
+/* line 387, ../sass/large.css.scss */
+div#welcome {
+  width: 70%;
+  max-width: 980px;
+}
+/* line 390, ../sass/large.css.scss */
+div#welcome h1, div#welcome h2 {
+  max-width: 980px;
+}
+
+/* line 412, ../sass/large.css.scss */
+div.hero#project div.heading {
+  width: 70%;
+  max-width: 980px;
+  margin: auto;
+}
+
+/* line 419, ../sass/large.css.scss */
+div.container div.column-2-3#employee_work {
+  padding-top: 180px;
+}
+
+/* line 423, ../sass/large.css.scss */
+a.back_nav {
+  margin: 0 0 60px 0;
+}
+
+/* line 427, ../sass/large.css.scss */
+.container .column-1-3.right {
+  margin-top: 80px;
+}
+
+/* line 431, ../sass/large.css.scss */
+div.container#other-news-small, div.container#job_related-small {
+  display: none;
+}
+
+/* line 435, ../sass/large.css.scss */
+div.status div.message {
+  width: 70%;
+  max-width: 980px;
+}
+
+/* line 442, ../sass/large.css.scss */
+div.dashboard div.section-group.controls div.group#search-field input {
+  font-size: 1.5em;
+  padding: 5px 0;
+  width: 75%;
+}
+/* line 447, ../sass/large.css.scss */
+div.dashboard div.section-group.controls button {
+  font-size: 1.5em;
+}
+/* line 452, ../sass/large.css.scss */
+div.dashboard section.group.stats:first-child {
+  margin-top: 0;
+}
+/* line 455, ../sass/large.css.scss */
+div.dashboard section.group.stats p {
+  margin-bottom: 0;
+}
+/* line 459, ../sass/large.css.scss */
+div.dashboard section.group.stats .stat {
+  margin: 0 0 40px 0;
+  background-color: rgba(225, 225, 225, 0.8);
+}
+/* line 462, ../sass/large.css.scss */
+div.dashboard section.group.stats .stat .number {
+  font-size: 2em;
+}
+/* line 467, ../sass/large.css.scss */
+div.dashboard tr.species-container td {
+  vertical-align: middle;
+}
+/* line 470, ../sass/large.css.scss */
+div.dashboard tr.species-container td.ranking {
+  width: 74%;
+}
+/* line 472, ../sass/large.css.scss */
+div.dashboard tr.species-container td.ranking p {
+  font-size: 1em;
+}
+/* line 475, ../sass/large.css.scss */
+div.dashboard tr.species-container td.ranking p.species-count-small {
+  display: none;
+}
+/* line 478, ../sass/large.css.scss */
+div.dashboard tr.species-container td.ranking.cites-cms {
+  height: 42px;
+}
+/* line 482, ../sass/large.css.scss */
+div.dashboard tr.species-conteiner p.species-count-small {
+  display: none;
+}
+/* line 485, ../sass/large.css.scss */
+div.dashboard td.species-count {
+  width: 18%;
+  display: table-cell;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.25em;
+  text-align: right;
+  color: #888;
+}
