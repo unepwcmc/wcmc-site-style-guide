@@ -3,7 +3,7 @@
   width: 90%;
   margin: auto;
   overflow: hidden;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 /* line 18, ../sass/medium.css.scss */
 .container.dashboard {
@@ -94,12 +94,12 @@
 }
 /* line 86, ../sass/medium.css.scss */
 .container .column-1-3 {
-  padding-top: 60px;
+  margin-top: 60px;
 }
 /* line 88, ../sass/medium.css.scss */
 .container .column-1-3.right {
   float: right;
-  padding: 0 0 0 9%;
+  margin: 0 0 0 9%;
   margin-top: 60px;
 }
 /* line 93, ../sass/medium.css.scss */
@@ -133,58 +133,62 @@
 .container .column-1-3#data-small {
   margin-bottom: 60px;
 }
-/* line 119, ../sass/medium.css.scss */
+/* line 118, ../sass/medium.css.scss */
+.container .column-2-3 {
+  margin-top: 60px;
+}
+/* line 120, ../sass/medium.css.scss */
 .container .column-2-3.left {
   float: left;
 }
-/* line 123, ../sass/medium.css.scss */
+/* line 124, ../sass/medium.css.scss */
 .container .column-2-3#featured-project h2 {
   font-size: 1.65em;
 }
 
-/* line 130, ../sass/medium.css.scss */
+/* line 131, ../sass/medium.css.scss */
 ul.partners_logos {
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 40px;
 }
-/* line 134, ../sass/medium.css.scss */
+/* line 135, ../sass/medium.css.scss */
 ul.partners_logos li {
   display: inline-block;
   margin-right: 5%;
   float: left;
 }
 
-/* line 140, ../sass/medium.css.scss */
+/* line 141, ../sass/medium.css.scss */
 ul.project_team {
   overflow: hidden;
   margin-top: 25px;
 }
-/* line 143, ../sass/medium.css.scss */
+/* line 144, ../sass/medium.css.scss */
 ul.project_team li {
   float: left;
   width: 30.3%;
   margin-right: 4.5%;
 }
-/* line 147, ../sass/medium.css.scss */
+/* line 148, ../sass/medium.css.scss */
 ul.project_team li h4 {
   padding-bottom: 0;
 }
-/* line 150, ../sass/medium.css.scss */
+/* line 151, ../sass/medium.css.scss */
 ul.project_team li:last-child {
   margin-right: 0;
 }
-/* line 153, ../sass/medium.css.scss */
+/* line 154, ../sass/medium.css.scss */
 ul.project_team li h4, ul.project_team li p {
   text-align: center;
 }
 
-/* line 159, ../sass/medium.css.scss */
+/* line 160, ../sass/medium.css.scss */
 h1, h2, h3, h5 {
   font-family: "museo-slab", Helvetica, Arial, sans-serif;
 }
 
-/* line 163, ../sass/medium.css.scss */
+/* line 164, ../sass/medium.css.scss */
 h1 {
   font-size: 2.25em;
   line-height: 1.2em;
@@ -192,7 +196,7 @@ h1 {
   color: #5e5a5c;
 }
 
-/* line 170, ../sass/medium.css.scss */
+/* line 171, ../sass/medium.css.scss */
 h2 {
   font-weight: 700;
   font-size: 1.65em;
@@ -200,11 +204,11 @@ h2 {
   margin: 0.75em 0;
   color: #5e5a5c;
 }
-/* line 176, ../sass/medium.css.scss */
+/* line 177, ../sass/medium.css.scss */
 h2.smaller {
   font-size: 1.2em;
 }
-/* line 179, ../sass/medium.css.scss */
+/* line 180, ../sass/medium.css.scss */
 h2.large_subheading {
   font-size: 1.4em;
   font-size: 2em;
@@ -212,14 +216,14 @@ h2.large_subheading {
   text-align: center;
 }
 
-/* line 187, ../sass/medium.css.scss */
+/* line 188, ../sass/medium.css.scss */
 h3#news {
   margin-bottom: 60px;
   padding-top: 60px;
   font-size: 1em;
 }
 
-/* line 193, ../sass/medium.css.scss */
+/* line 194, ../sass/medium.css.scss */
 h4 {
   width: 100%;
   font-size: 0.75em;
@@ -230,7 +234,7 @@ h4 {
   line-height: 1.75em;
 }
 
-/* line 203, ../sass/medium.css.scss */
+/* line 204, ../sass/medium.css.scss */
 h5 {
   font-weight: 500;
   font-size: 2em;
@@ -239,7 +243,7 @@ h5 {
   margin-bottom: 2%;
 }
 
-/* line 211, ../sass/medium.css.scss */
+/* line 212, ../sass/medium.css.scss */
 #nav-container {
   margin-top: 0;
   width: 100%;
@@ -247,13 +251,13 @@ h5 {
   background: #222;
 }
 
-/* line 219, ../sass/medium.css.scss */
+/* line 220, ../sass/medium.css.scss */
 div#nav {
   overflow: hidden;
   width: 90%;
   margin: auto;
 }
-/* line 223, ../sass/medium.css.scss */
+/* line 224, ../sass/medium.css.scss */
 div#nav a#home_link {
   position: absolute;
   float: left;
@@ -261,7 +265,7 @@ div#nav a#home_link {
   padding: 10px 0;
   background: none;
 }
-/* line 229, ../sass/medium.css.scss */
+/* line 230, ../sass/medium.css.scss */
 div#nav a#home_link img {
   width: 100%;
   max-height: 100%;
@@ -270,101 +274,101 @@ div#nav a#home_link img {
   -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
-/* line 238, ../sass/medium.css.scss */
+/* line 239, ../sass/medium.css.scss */
 div#nav ul {
   margin: auto;
   overflow: hidden;
 }
-/* line 241, ../sass/medium.css.scss */
+/* line 242, ../sass/medium.css.scss */
 div#nav ul li {
   padding: 3.25% 0 0 2%;
   float: right;
 }
-/* line 245, ../sass/medium.css.scss */
+/* line 246, ../sass/medium.css.scss */
 div#nav ul#button-menu {
   display: none;
   clear: both;
   padding: 0 0 20px 0;
 }
-/* line 249, ../sass/medium.css.scss */
+/* line 250, ../sass/medium.css.scss */
 div#nav ul#button-menu li {
   padding: 0 0 3px 0;
   margin: 0;
   clear: both;
   text-align: right;
 }
-/* line 254, ../sass/medium.css.scss */
+/* line 255, ../sass/medium.css.scss */
 div#nav ul#button-menu li:last-child {
   padding-bottom: 0;
 }
 
-/* line 262, ../sass/medium.css.scss */
+/* line 263, ../sass/medium.css.scss */
 div.dashboard-container {
   margin: 0;
 }
 
-/* line 267, ../sass/medium.css.scss */
+/* line 268, ../sass/medium.css.scss */
 div.heading h1 {
   font-size: 2.25em;
   line-height: 1.25em;
   display: inline-block;
 }
-/* line 272, ../sass/medium.css.scss */
+/* line 273, ../sass/medium.css.scss */
 div.heading h2 {
   display: inline-block;
   font-size: 1.25em;
   line-height: 1.4em;
 }
 
-/* line 279, ../sass/medium.css.scss */
+/* line 280, ../sass/medium.css.scss */
 div.hero#project div.heading {
   width: 45%;
   margin-left: 5%;
   text-align: left;
 }
 
-/* line 286, ../sass/medium.css.scss */
+/* line 287, ../sass/medium.css.scss */
 div#welcome h1, div#featured_heading h1 {
   font-size: 2.5em;
   line-height: 1.25em;
 }
-/* line 290, ../sass/medium.css.scss */
+/* line 291, ../sass/medium.css.scss */
 div#welcome p, div#featured_heading p {
   font-size: 1.2em;
 }
 
-/* line 295, ../sass/medium.css.scss */
+/* line 296, ../sass/medium.css.scss */
 div.button#contact {
   width: 235px;
   margin-bottom: 5px;
 }
 
-/* line 300, ../sass/medium.css.scss */
+/* line 301, ../sass/medium.css.scss */
 div#featured_heading {
   margin-top: 60px;
   padding: 0;
 }
-/* line 301, ../sass/medium.css.scss */
+/* line 302, ../sass/medium.css.scss */
 div#featured_heading h2 {
   font-size: 2em;
 }
 
-/* line 308, ../sass/medium.css.scss */
+/* line 309, ../sass/medium.css.scss */
 iframe {
   margin: 20px 0;
 }
 
-/* line 312, ../sass/medium.css.scss */
+/* line 313, ../sass/medium.css.scss */
 .call-action {
   margin-top: 40px;
 }
-/* line 314, ../sass/medium.css.scss */
+/* line 315, ../sass/medium.css.scss */
 .call-action div.button#action {
   padding: 10px 20px;
   width: 280px;
 }
 
-/* line 320, ../sass/medium.css.scss */
+/* line 321, ../sass/medium.css.scss */
 button#trigger-menu {
   background: none;
   float: right;
@@ -376,99 +380,99 @@ button#trigger-menu {
   margin: 5px 0;
 }
 
-/* line 331, ../sass/medium.css.scss */
+/* line 332, ../sass/medium.css.scss */
 ul.subnav-small {
   overflow: hidden;
   margin-bottom: 60px;
 }
-/* line 334, ../sass/medium.css.scss */
+/* line 335, ../sass/medium.css.scss */
 ul.subnav-small li:nth-child(1n) {
   float: right;
   margin-right: 0;
   width: 48%;
 }
-/* line 339, ../sass/medium.css.scss */
+/* line 340, ../sass/medium.css.scss */
 ul.subnav-small li:nth-child(2n) {
   float: left;
   margin-right: 4%;
   width: 48%;
 }
-/* line 344, ../sass/medium.css.scss */
+/* line 345, ../sass/medium.css.scss */
 ul.subnav-small li.header {
   float: none;
 }
-/* line 347, ../sass/medium.css.scss */
+/* line 348, ../sass/medium.css.scss */
 ul.subnav-small ul.expertise-small:first-of-type {
   overflow: hidden;
 }
-/* line 350, ../sass/medium.css.scss */
+/* line 351, ../sass/medium.css.scss */
 ul.subnav-small ul.expertise-small li {
   float: none;
 }
 
-/* line 355, ../sass/medium.css.scss */
+/* line 356, ../sass/medium.css.scss */
 ul.subnav#staff {
   margin-bottom: 30px;
 }
 
-/* line 359, ../sass/medium.css.scss */
+/* line 360, ../sass/medium.css.scss */
 h1.page_header#featured {
   padding-top: 60px;
 }
 
-/* line 363, ../sass/medium.css.scss */
+/* line 364, ../sass/medium.css.scss */
 div.data_policy {
   display: block;
   padding: 15px;
   margin-top: 10px;
 }
-/* line 367, ../sass/medium.css.scss */
+/* line 368, ../sass/medium.css.scss */
 div.data_policy h3 {
   margin-bottom: 10px;
 }
 
-/* line 372, ../sass/medium.css.scss */
+/* line 373, ../sass/medium.css.scss */
 div.data_policy-small {
   display: none;
 }
 
-/* line 376, ../sass/medium.css.scss */
+/* line 377, ../sass/medium.css.scss */
 div#button-row {
   margin-top: 1em;
 }
-/* line 378, ../sass/medium.css.scss */
+/* line 379, ../sass/medium.css.scss */
 div#button-row div.button#more_projects {
   margin: auto;
   width: 290px;
 }
 
-/* line 384, ../sass/medium.css.scss */
+/* line 385, ../sass/medium.css.scss */
 div.column-1-3.right#save-link-small i {
   right: -618px;
 }
 
-/* line 388, ../sass/medium.css.scss */
+/* line 389, ../sass/medium.css.scss */
 div.column-1-3.right#application-related {
   padding-left: 0;
 }
 
-/* line 392, ../sass/medium.css.scss */
+/* line 393, ../sass/medium.css.scss */
 div.column-2-3.left#job_application div.button {
   width: 250px;
 }
 
-/* line 396, ../sass/medium.css.scss */
+/* line 397, ../sass/medium.css.scss */
 .container div.column-2-3.left#job_application h1 span {
   display: inline;
   font-size: 0.45em;
 }
 
-/* line 401, ../sass/medium.css.scss */
+/* line 402, ../sass/medium.css.scss */
 div.container div.column-2-3#employee_work {
   padding-top: 60px;
 }
 
-/* line 405, ../sass/medium.css.scss */
+/* line 406, ../sass/medium.css.scss */
 div#footer_container {
   overflow: hidden;
   background: url('/images/map_world.png?1390578956') no-repeat center;
@@ -477,69 +481,69 @@ div#footer_container {
   background-size: 100%;
   margin-top: 60px;
 }
-/* line 412, ../sass/medium.css.scss */
+/* line 413, ../sass/medium.css.scss */
 div#footer_container a#unep {
   padding: 0;
   float: right;
 }
-/* line 415, ../sass/medium.css.scss */
+/* line 416, ../sass/medium.css.scss */
 div#footer_container a#unep img {
   width: 15%;
   float: right;
 }
 
-/* line 422, ../sass/medium.css.scss */
+/* line 423, ../sass/medium.css.scss */
 ul.footer {
   overflow: hidden;
   float: left;
 }
-/* line 425, ../sass/medium.css.scss */
+/* line 426, ../sass/medium.css.scss */
 ul.footer li {
   float: left;
   padding-right: 15px;
   padding-bottom: 0;
 }
 
-/* line 433, ../sass/medium.css.scss */
+/* line 434, ../sass/medium.css.scss */
 div.data_policy h3, div.data_policy-small h3 {
   color: #5e5a5c;
   text-align: left;
   margin-top: 0;
 }
-/* line 438, ../sass/medium.css.scss */
+/* line 439, ../sass/medium.css.scss */
 div.data_policy p, div.data_policy-small p {
   font-size: 0.85em;
   margin-bottom: 0;
 }
 
-/* line 444, ../sass/medium.css.scss */
+/* line 445, ../sass/medium.css.scss */
 div.search-field input, div.search-field i {
   font-size: 0.75em;
 }
 
-/* line 463, ../sass/medium.css.scss */
+/* line 464, ../sass/medium.css.scss */
 form section p.radio-state {
   display: inline;
   padding-right: 20px;
 }
-/* line 467, ../sass/medium.css.scss */
+/* line 468, ../sass/medium.css.scss */
 form section input.state {
   display: inline;
   width: 40%;
   margin-top: 0px;
 }
 
-/* line 475, ../sass/medium.css.scss */
+/* line 476, ../sass/medium.css.scss */
 div.status div.message {
   padding: 15px 0;
 }
-/* line 477, ../sass/medium.css.scss */
+/* line 478, ../sass/medium.css.scss */
 div.status div.message p {
   display: block;
   float: left;
   width: 90%;
 }
-/* line 482, ../sass/medium.css.scss */
+/* line 483, ../sass/medium.css.scss */
 div.status div.message i.icon-chevron-up {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -551,21 +555,21 @@ div.status div.message i.icon-chevron-up {
   padding: 0;
 }
 
-/* line 494, ../sass/medium.css.scss */
+/* line 495, ../sass/medium.css.scss */
 div.dashboard section.group {
   padding-bottom: 0;
   margin-top: 0;
 }
 
-/* line 499, ../sass/medium.css.scss */
+/* line 500, ../sass/medium.css.scss */
 div.dashboard {
   margin: 70px auto 20px auto;
 }
-/* line 501, ../sass/medium.css.scss */
+/* line 502, ../sass/medium.css.scss */
 div.dashboard div.biodiversity {
   margin-top: 0px;
 }
-/* line 505, ../sass/medium.css.scss */
+/* line 506, ../sass/medium.css.scss */
 div.dashboard header h1 {
   font-size: 2.4em;
   color: white;
@@ -573,34 +577,34 @@ div.dashboard header h1 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
-/* line 513, ../sass/medium.css.scss */
+/* line 514, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls {
   position: relative;
   width: 100%;
   z-index: 1000;
 }
-/* line 517, ../sass/medium.css.scss */
+/* line 518, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #view-button {
   width: 20%;
 }
-/* line 520, ../sass/medium.css.scss */
+/* line 521, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls section.group {
   background-color: rgba(255, 255, 255, 0);
   margin-top: 0;
 }
-/* line 524, ../sass/medium.css.scss */
+/* line 525, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field.full {
   width: 98%;
   -webkit-transition: width .65s ease;
   transition: width .65s ease;
 }
-/* line 529, ../sass/medium.css.scss */
+/* line 530, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field {
   width: 75%;
   border-bottom: 2px solid #fff;
   position: relative;
 }
-/* line 533, ../sass/medium.css.scss */
+/* line 534, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field input {
   width: 95%;
   padding: 5px 0 10px 0;
@@ -611,28 +615,28 @@ div.dashboard div.section-group.controls #search-field input {
   font-size: 1.25em;
   outline: none;
 }
-/* line 543, ../sass/medium.css.scss */
+/* line 544, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field input::-webkit-input-placeholder {
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 547, ../sass/medium.css.scss */
+/* line 548, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field input::-moz-placeholder {
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 551, ../sass/medium.css.scss */
+/* line 552, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field input:-moz-placeholder {
   /* Older versions of Firefox */
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 555, ../sass/medium.css.scss */
+/* line 556, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field input:-ms-input-placeholder {
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 559, ../sass/medium.css.scss */
+/* line 560, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls #search-field i.icon-search {
   width: 35px;
   color: #fff;
@@ -648,7 +652,7 @@ div.dashboard div.section-group.controls #search-field i.icon-search {
   right: 0;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 575, ../sass/medium.css.scss */
+/* line 576, ../sass/medium.css.scss */
 div.dashboard div.section-group.controls button {
   color: #fff;
   background: none;
@@ -663,105 +667,105 @@ div.dashboard div.section-group.controls button {
   border-radius: 3px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 591, ../sass/medium.css.scss */
+/* line 592, ../sass/medium.css.scss */
 div.dashboard section.group {
   margin-top: 40px;
 }
-/* line 593, ../sass/medium.css.scss */
+/* line 594, ../sass/medium.css.scss */
 div.dashboard section.group:last-child {
   margin-top: 0;
 }
-/* line 601, ../sass/medium.css.scss */
+/* line 602, ../sass/medium.css.scss */
 div.dashboard section.group.stats:first-child {
   margin-top: 0;
 }
-/* line 604, ../sass/medium.css.scss */
+/* line 605, ../sass/medium.css.scss */
 div.dashboard section.group.stats p {
   margin-bottom: 0;
 }
-/* line 608, ../sass/medium.css.scss */
+/* line 609, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat {
   margin: 0 0 40px 0;
   background-color: rgba(225, 225, 225, 0.8);
 }
-/* line 611, ../sass/medium.css.scss */
+/* line 612, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat header {
   padding: 20px;
 }
-/* line 613, ../sass/medium.css.scss */
+/* line 614, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat header p {
   font-size: 0.8em;
 }
-/* line 616, ../sass/medium.css.scss */
+/* line 617, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat header i.icon-info-sign {
   font-size: 1em;
   line-height: 1em;
 }
-/* line 621, ../sass/medium.css.scss */
+/* line 622, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .metrics-container {
   padding: 20px;
   width: 100%;
   overflow: hidden;
 }
-/* line 625, ../sass/medium.css.scss */
+/* line 626, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .metrics-container.carbon {
   padding: 25px 20px;
   margin-top: 0px;
 }
-/* line 628, ../sass/medium.css.scss */
+/* line 629, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .metrics-container.carbon .bar-container {
   bottom: 25px;
 }
-/* line 633, ../sass/medium.css.scss */
+/* line 634, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .metric {
   width: 100%;
   line-height: 0.75em;
 }
-/* line 636, ../sass/medium.css.scss */
+/* line 637, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .metric.percentage {
   width: 100%;
 }
-/* line 640, ../sass/medium.css.scss */
+/* line 641, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .number {
   font-size: 1.7em;
   font-weight: bold;
   color: #333333;
   line-height: 0.75em;
 }
-/* line 646, ../sass/medium.css.scss */
+/* line 647, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .small {
   font-size: 0.85em;
   font-weight: 300;
 }
-/* line 650, ../sass/medium.css.scss */
+/* line 651, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .number, div.dashboard section.group.stats .stat .small {
   display: inline-block;
 }
-/* line 654, ../sass/medium.css.scss */
+/* line 655, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat .content p {
   line-height: 2.25em;
 }
-/* line 658, ../sass/medium.css.scss */
+/* line 659, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat b {
   font-weight: bold;
 }
-/* line 663, ../sass/medium.css.scss */
+/* line 664, ../sass/medium.css.scss */
 div.dashboard section.group.stats .stat.carbon > div {
   border-top: 1px solid #dddddd;
 }
-/* line 666, ../sass/medium.css.scss */
+/* line 667, ../sass/medium.css.scss */
 div.dashboard section.group.stats header {
   padding: 16px 10px;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.8);
 }
-/* line 670, ../sass/medium.css.scss */
+/* line 671, ../sass/medium.css.scss */
 div.dashboard section.group.stats header p {
   margin-bottom: 0;
   font-weight: bold;
   font-size: 0.85em;
 }
-/* line 675, ../sass/medium.css.scss */
+/* line 676, ../sass/medium.css.scss */
 div.dashboard section.group.stats header span.option-selector {
   float: right;
   cursor: pointer;
@@ -769,17 +773,17 @@ div.dashboard section.group.stats header span.option-selector {
   text-transform: none;
   font-weight: 300;
 }
-/* line 681, ../sass/medium.css.scss */
+/* line 682, ../sass/medium.css.scss */
 div.dashboard section.group.stats header span.option-selector:hover, div.dashboard section.group.stats header span.option-selector:active {
   text-decoration: underline;
 }
-/* line 688, ../sass/medium.css.scss */
+/* line 689, ../sass/medium.css.scss */
 div.dashboard .bar-percentage {
   float: left;
   color: #333333;
   padding: 0;
 }
-/* line 694, ../sass/medium.css.scss */
+/* line 695, ../sass/medium.css.scss */
 div.dashboard .bar-container {
   float: right;
   -webkit-border-radius: 10px;
@@ -790,7 +794,7 @@ div.dashboard .bar-container {
   width: 100%;
   overflow: hidden;
 }
-/* line 705, ../sass/medium.css.scss */
+/* line 706, ../sass/medium.css.scss */
 div.dashboard .bar {
   background: #4c9cda;
   height: 100%;
@@ -803,15 +807,15 @@ div.dashboard .bar {
   -khtml-opacity: 1;
   opacity: 1;
 }
-/* line 719, ../sass/medium.css.scss */
+/* line 720, ../sass/medium.css.scss */
 div.dashboard .geo_entities .select2-container {
   width: 100%;
 }
-/* line 722, ../sass/medium.css.scss */
+/* line 723, ../sass/medium.css.scss */
 div.dashboard .geo_entities .select2-chosen {
   padding: 10px 0;
 }
-/* line 727, ../sass/medium.css.scss */
+/* line 728, ../sass/medium.css.scss */
 div.dashboard table {
   counter-reset: li;
   /* Initiate a counter */
@@ -820,11 +824,11 @@ div.dashboard table {
   padding-left: 0;
   /* Remove the default left padding */
 }
-/* line 734, ../sass/medium.css.scss */
+/* line 735, ../sass/medium.css.scss */
 div.dashboard tr.species-container {
   padding: 20px;
 }
-/* line 738, ../sass/medium.css.scss */
+/* line 739, ../sass/medium.css.scss */
 div.dashboard tr.species-container td.counter {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -838,7 +842,7 @@ div.dashboard tr.species-container td.counter {
   font-family: "museo-sans", Helvetica, Arial, sans-serif;
   text-align: center;
 }
-/* line 753, ../sass/medium.css.scss */
+/* line 754, ../sass/medium.css.scss */
 div.dashboard .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -857,14 +861,14 @@ div.dashboard .dropdown-menu {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
 }
-/* line 771, ../sass/medium.css.scss */
+/* line 772, ../sass/medium.css.scss */
 div.dashboard .dropdown-menu li a {
   display: block;
   padding: 3px 20px;
   color: #333333;
   white-space: nowrap;
 }
-/* line 777, ../sass/medium.css.scss */
+/* line 778, ../sass/medium.css.scss */
 div.dashboard .dropdown-menu .active a, div.dashboard .dropdown-menu .active a:hover, div.dashboard .dropdown-menu .active a:focus {
   color: #ffffff;
   text-decoration: none;
