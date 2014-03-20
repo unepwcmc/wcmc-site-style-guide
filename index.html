@@ -18,48 +18,38 @@
 			<div id="nav">
 					<a id="home_link" href="index.html" title="Home"><img src="images/logo_white_transparent.png" width="" height="" alt="project 2"/></a>
 					<ul id="large-menu">
-						<li><a href="" title="">Link 1</a></li>
-						<li><a href="" title="">Link 2</a></li>
-						<li><a href="" title="">Link 3</a></li>
-						<li><a href="" title="">Link 4</a></li>
+						<li><a href="patchwork.html" title="Patchwork view">View patchwork</a></li>
 					</ul>
 					<button id="trigger-menu"><i class="icon-align-justify"></i></button>
 					<ul id="button-menu">
-						<li><a href="" title="">Link 1</a></li>
-						<li><a href="" title="">Link 2</a></li>
-						<li><a href="" title="">Link 3</a></li>
-						<li><a href="" title="">Link 4</a></li>
+						<li><a href="patchwork.html" title="Patchwork view">View patchwork</a></li>
 					</ul>
 			</div><!--nav-->
 		</div>
-		<div class="pattern-navigation"></div>
-			<h1 class="guide-heading">Content elements</h1>
-			<div class="container">
-				<ul>
-					<li><p><a href="index.html#headings">Headings</a></p></li>
-					<li><p><a href="index.html#paragraphs">Paragraphs</a></p></li>
-					<li><p><a href="index.html#lists">Lists</a></p></li>
-					<li><p><a href="index.html#metadata">Date, Author, ISBN</a></p></li>
-					<li><p><a href="index.html#links">Links</a></p></li>
-					<li><p><a href="index.html#banners">Banners</a></p></li>
-					<li><p><a href="index.html#navigation">Navigation</a></p></li>
-					<li><p><a href="index.html#filtering">Filtering</a></p></li>
-					<li><p><a href="index.html#buttons">Buttons</a></p></li>
-					<li><p><a href="index.html#search">Search</a></p></li>
-					<li><p><a href="index.html#forms">Forms</a></p></li>
-					<li><p><a href="index.html#validation">Form validation</a></p></li>
-					<li><p><a href="index.html#messages">Info messages</a></p></li>
-				</ul>
-			</div>
-			<h1>Layouts</h1>
-			<div class="container">
-				<ul>
-					<li><p><a href="index.html#about-layout">About us, Data &amp; resources and Our Expertise layout</a></p></li>
-					<li><p><a href="index.html#projects-news-layout">Featured projects and news on home page layout</a></p></li>
-					<li><p><a href="index.html#project-employee-layout">Featured project &amp; Employee page layout</a></p></li>
-					<li><p><a href="index.html#vacancy-application-layout">Vacancy &amp; application layout</a></p></li>
-				</ul>
-			</div>
+		<div class="pattern-navigation">
+			<h1 class="navigation-heading">Content elements</h1>
+			<ul>
+				<li><p><a href="index.html#headings">Headings</a></p></li>
+				<li><p><a href="index.html#paragraphs">Paragraphs</a></p></li>
+				<li><p><a href="index.html#lists">Lists</a></p></li>
+				<li><p><a href="index.html#metadata">Date, Author, ISBN</a></p></li>
+				<li><p><a href="index.html#links">Links</a></p></li>
+				<li><p><a href="index.html#banners">Banners</a></p></li>
+				<li><p><a href="index.html#navigation">Navigation</a></p></li>
+				<li><p><a href="index.html#filtering">Filtering</a></p></li>
+				<li><p><a href="index.html#buttons">Buttons</a></p></li>
+				<li><p><a href="index.html#search">Search</a></p></li>
+				<li><p><a href="index.html#forms">Forms</a></p></li>
+				<li><p><a href="index.html#validation">Form validation</a></p></li>
+				<li><p><a href="index.html#messages">Info messages</a></p></li>
+			</ul>
+			<h1 class="navigation-heading">Layouts</h1>
+			<ul>
+				<li><p><a href="index.html#about-layout">About us, Data &amp; resources and Our Expertise layout</a></p></li>
+				<li><p><a href="index.html#projects-news-layout">Featured projects and news on home page layout</a></p></li>
+				<li><p><a href="index.html#project-employee-layout">Featured project &amp; Employee page layout</a></p></li>
+				<li><p><a href="index.html#vacancy-application-layout">Vacancy &amp; application layout</a></p></li>
+			</ul>
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
@@ -73,6 +63,16 @@
 				<h1 id="featured_heading">Featured projects heading</h1>
 				<h2 class="smaller">Vacancy, news item, database item heading</h2>
 			</div>
+			<div class="pattern-markup">
+				<code>
+<pre>&lt;<span class="element">h1</span>&gt;<span class="markup-content">Heading 1</span>&lt;/<span class="element">h1</span>&gt;
+&lt;<span class="element">h2</span>&gt;<span class="markup-content">Heading 2</span>&lt;/<span class="element">h2</span>&gt;
+&lt;<span class="element">h3</span>&gt;<span class="markup-content">Heading 3</span>&lt;/<span class="element">h3</span>&gt;
+&lt;<span class="element">h3</span> <span class="attribute">id</span>="<span class="value">news</span>"&gt;<span class="markup-content">News heading</span>&lt;/<span class="element">h3</span>&gt;
+&lt;<span class="element">h1</span> <span class="attribute">id</span>="<span class="value">featured_heading</span>"&gt;<span class="markup-content">Featured projects heading</span>&lt;/<span class="element">h1</span>&gt;
+&lt;<span class="element">h2</span> <span class="attribute">class</span>="<span class="value">smaller</span>"&gt;<span class="markup-content">Vacancy, news item, database item heading</span>&lt;/<span class="element">h2</span>&gt;</pre>
+				</code>
+			</div>
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
@@ -85,13 +85,30 @@
 				<section class="list">
 					<h2 class="smaller"><a href="">Vacancies title</a></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</p>
-					<a href="" alt="">Apply</a>
+					<p><a href="" alt="">Apply</a></p>
 				</section>
 				<section class="list">
 					<h2 class="smaller"><a href="">News title</a></h2>
-					<h3>2 June 2013</h3>
+					<small>2 June 2013</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</p>
 				</section>
+			</div>
+			<div class="pattern-markup">
+				<code>
+<pre>&lt;<span class="element">p</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</span>&lt;/<span class="element">p</span>&gt;
+
+&lt;<span class="element">section</span> <span class="attribute">class</span>="<span class="value">list</span>"&gt;
+	&lt;<span class="element">h2</span> <span class="attribute">class</span>="<span class="value">smaller</span>"&gt;<span class="markup-content">Vacancies title</span>&lt;/<span class="element">h2</span>&gt;
+	&lt;<span class="element">p</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</span>&lt;/<span class="element">p</span>&gt;
+	&lt;<span class="element">p</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Apply</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">p</span>&gt;
+&lt;/<span class="element">section</span>&gt;
+
+&lt;<span class="element">section</span> <span class="attribute">class</span>="<span class="value">list</span>"&gt;
+	&lt;<span class="element">h2</span> <span class="attribute">class</span>="<span class="value">smaller</span>"&gt;<span class="markup-content">News title</span>&lt;/<span class="element">h2</span>&gt;
+	&lt;<span class="element">small</span>&gt;<span class="markup-content">2 June 2013</span>&lt;/<span class="element">small</span>&gt;
+	&lt;<span class="element">p</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</span>&lt;/<span class="element">p</span>&gt;
+&lt;/<span class="element">section</span>&gt;</pre>
+				</code>
 			</div>
 		</div>
 		<div class="pattern">
@@ -106,18 +123,34 @@
 					<li>List item 4</li>
 				</ul>
 			</div>
+			<div class="pattern-markup">
+				<code>
+<pre>&lt;<span class="element">ul</span>&gt;
+	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 1</span>&lt;/<span class="element">li</span>&gt;
+	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 2</span>&lt;/<span class="element">li</span>&gt;
+	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 3</span>&lt;/<span class="element">li</span>&gt;
+	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 4</span>&lt;/<span class="element">li</span>&gt;
+&lt;/<span class="element">ul</span>&gt;
+				</code>
+			</div>
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
 				<h3 class="pattern-name">Metadata</h3>
 			</div>
 			<div class="pattern-preview">
-				<h2 class="guide-heading">Type of content, data, ISBN, autor</h2>
-				<h3 class="content-type-date">Type of content | 02 June 2013</h3>
+				<h3 class="data">Type of content | 02 June 2013</h3>
 				<h3 class="author">Author 1, Author 2, Author 3</h3>
 				<h3 class="isbn">ISBN: 978-92-807-3189-7</h3>
-				<h2 class="guide-heading">News date</h2>
 				<small>2 June 2013</small>
+			</div>
+			<div class="pattern-markup">
+				<code>
+<pre>&lt;<span class="element">h3</span> <span class="attribute">class</span>="<span class="value">data</span>"&gt;<span class="markup-content">Type of content | 02 June 2013</span>&lt;/<span class="element">h3</span>&gt;
+&lt;<span class="element">h3</span> <span class="attribute">class</span>="<span class="value">author</span>"&gt;<span class="markup-content">Author 1, Author 2, Author 3</span>&lt;/<span class="element">h3</span>&gt;
+&lt;<span class="element">h3</span> <span class="attribute">class</span>="<span class="value">isbn</span>"&gt;<span class="markup-content">ISBN: 978-92-807-3189-7</span>&lt;/<span class="element">h3</span>&gt;
+&lt;<span class="element">small</span>&gt;<span class="markup-content">2 June 2013</span>&lt;/<span class="element">small</span>&gt;</pre>
+				</code>
 			</div>
 		</div>
 		<div class="pattern">
@@ -126,7 +159,13 @@
 			</div>
 			<div class="pattern-preview">
 				<p><a href="">Generic link</a></p>
-				<a class="back" href=""><i class="icon-chevron-left"></i> Back to previous page link</a>
+				<a class="back_nav" href=""><i class="icon-chevron-left"></i> Back to previous page link</a>
+			</div>
+			<div class="pattern-markup">
+				<code>
+<pre>&lt;<span class="element">p</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Generic link</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">p</span>&gt;
+&lt;<span class="element">a</span> <span class="attribute">class</span>="<span class="value">back_nav</span>"&gt;<span class="markup-content">&lt;<span class="element">i</span> <span class="attribute">class</span>="<span class="value">icon-chevron-left</span>"&gt;&lt;/<span class="element">i</span>&gt;Back to previous page link</span>&lt;/<span class="element">a</span>&gt;</pre>
+				</code>
 			</div>
 		</div>
 		<div class="pattern">
@@ -134,21 +173,36 @@
 				<h3 class="pattern-name">Banners</h3>
 			</div>
 			<div class="pattern-preview">
-				<h2 >Main section banner</h2>
 				<div class="hero">
 					<div class="heading">
 						<h1>Section message banner</h1>
 						<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.</h2>
 					</div>
 				</div>
-				<h2 id="project">Featured project banner</h2>
 				<div class="hero" id="project">
-					<div class="heading">
+					<div class="heading featured-project">
 						<h1>Project title</h1>
 						<h2>Tagline briefly defining the project</h2>
-						<div class="button" id="featured_project"><a href="">Call to action</a></div>
+						<div class="button banner"><a href="">Call to action</a></div>
 					</div>
 				</div>
+			</div>
+			<div class="pattern-markup">
+				<code>
+<pre>&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">hero</span>"&gt;	
+	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">heading</span>"&gt;
+			&lt;<span class="element">1</span>&gt;<span class="markup-content">Section message banner</span>&lt;/<span class="element">h1</span>&gt;
+			&lt;<span class="element">h2</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.</span>&lt;/<span class="element">h2</span>&gt;
+	&lt;/<span class="element">div</span>&gt;
+&lt;/<span class="element">div</span>&gt;
+
+&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">hero</span>"&gt;	
+	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">heading featured-project</span>"&gt;
+			&lt;<span class="element">1</span>&gt;<span class="markup-content">Section message banner</span>&lt;/<span class="element">h1</span>&gt;
+			&lt;<span class="element">h2</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.</span>&lt;/<span class="element">h2</span>&gt;
+	&lt;/<span class="element">div</span>&gt;
+&lt;/<span class="element">div</span>&gt;</pre>
+				</code>
 			</div>
 		</div>
 		<div class="pattern">

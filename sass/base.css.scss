@@ -285,6 +285,7 @@ div.hero{
   background-image: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url('../images/project_3.jpg');
 }
 
 div.container.related {
@@ -1626,10 +1627,26 @@ div.dashboard {
 }
 
 
-div.pattern {
+div.pattern, div.pattern-navigation {
   width: 70%;
   margin: 50px auto;
   border: 1px solid $grey;
+}
+
+div.pattern-navigation {
+  padding: 20px;
+  ul {
+    list-style-type: none;
+  }
+}
+
+h1.navigation-heading {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 300;
+  color: $grey_text;
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 div.pattern-details {
@@ -1664,3 +1681,42 @@ div.pattern-preview {
     padding: 20px;
   }
 }
+
+div.pattern-markup {
+  padding: 20px;
+  border-top: 1px solid $grey;
+  background: $light_grey;
+}
+
+code {
+  color: #000;
+  font-family: Consolas,Monaco,'Andale Mono',monospace;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+pre {
+  color: $medium_grey;
+  overflow: scroll;
+  span.element {
+    color: #905;
+  }
+  span.markup-content {
+    color: $grey_text;
+  }
+  span.attribute {
+    color: #690;
+  }
+    span.value {
+    color: #07a;
+  }
+}
+
+div.status.pattern {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+
+
+
