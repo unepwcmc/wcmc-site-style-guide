@@ -10,6 +10,7 @@
 			<link rel="stylesheet" href="stylesheets/base.css" type="text/css" media="screen" title="no title" charset="utf-8">
 			<link rel="stylesheet" href="stylesheets/medium.css" type="text/css" media="only screen and (min-width: 700px)" title="no title" charset="utf-8">
 			<link rel="stylesheet" href="stylesheets/large.css" type="text/css" media="screen and (min-width: 1000px)" title="no title" charset="utf-8">
+			<link rel="stylesheet" href="stylesheets/prism.css" type="text/css" media="screen and (min-width: 1000px)" title="no title" charset="utf-8">
 			<script type="text/javascript" src="//use.typekit.net/tqb5win.js"></script>
 			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
@@ -64,14 +65,16 @@
 				<h2 class="smaller">Vacancy, news item, database item heading</h2>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">h1</span>&gt;<span class="markup-content">Heading 1</span>&lt;/<span class="element">h1</span>&gt;
-&lt;<span class="element">h2</span>&gt;<span class="markup-content">Heading 2</span>&lt;/<span class="element">h2</span>&gt;
-&lt;<span class="element">h3</span>&gt;<span class="markup-content">Heading 3</span>&lt;/<span class="element">h3</span>&gt;
-&lt;<span class="element">h3</span> <span class="attribute">id</span>="<span class="value">news</span>"&gt;<span class="markup-content">News heading</span>&lt;/<span class="element">h3</span>&gt;
-&lt;<span class="element">h1</span> <span class="attribute">id</span>="<span class="value">featured_heading</span>"&gt;<span class="markup-content">Featured projects heading</span>&lt;/<span class="element">h1</span>&gt;
-&lt;<span class="element">h2</span> <span class="attribute">class</span>="<span class="value">smaller</span>"&gt;<span class="markup-content">Vacancy, news item, database item heading</span>&lt;/<span class="element">h2</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h3 id="news"&gt;News heading&lt;/h3&gt;
+&lt;h1 id="featured_heading"&gt;Featured projects heading&lt;/h1&gt;
+&lt;h2 class="smaller"&gt;Vacancy, news item, database item heading&lt;/h2&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -94,21 +97,23 @@
 				</section>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">p</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</span>&lt;/<span class="element">p</span>&gt;
-
-&lt;<span class="element">section</span> <span class="attribute">class</span>="<span class="value">list</span>"&gt;
-	&lt;<span class="element">h2</span> <span class="attribute">class</span>="<span class="value">smaller</span>"&gt;<span class="markup-content">Vacancies title</span>&lt;/<span class="element">h2</span>&gt;
-	&lt;<span class="element">p</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</span>&lt;/<span class="element">p</span>&gt;
-	&lt;<span class="element">p</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Apply</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">p</span>&gt;
-&lt;/<span class="element">section</span>&gt;
-
-&lt;<span class="element">section</span> <span class="attribute">class</span>="<span class="value">list</span>"&gt;
-	&lt;<span class="element">h2</span> <span class="attribute">class</span>="<span class="value">smaller</span>"&gt;<span class="markup-content">News title</span>&lt;/<span class="element">h2</span>&gt;
-	&lt;<span class="element">small</span>&gt;<span class="markup-content">2 June 2013</span>&lt;/<span class="element">small</span>&gt;
-	&lt;<span class="element">p</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.</span>&lt;/<span class="element">p</span>&gt;
-&lt;/<span class="element">section</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;h2&gt;Paragraphs&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. &lt;a href="" alt=""&gt;Link&lt;/a&gt;.In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.&lt;/p&gt;
+&lt;h2&gt;Sections&lt;/h2&gt;
+&lt;section class="list"&gt;
+	&lt;h2 class="smaller"&gt;&lt;a href=""&gt;Vacancies title&lt;/a&gt;&lt;/h2&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.&lt;/p&gt;
+	&lt;p&gt;&lt;a href="" alt=""&gt;Apply&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section class="list"&gt;
+	&lt;h2 class="smaller"&gt;&lt;a href=""&gt;News title&lt;/a&gt;&lt;/h2&gt;
+	&lt;small&gt;2 June 2013&lt;/small&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet. In ultricies semper felis, eget congue mauris pharetra sit amet. Phasellus id pretium enim, vitae sodales dolor.&lt;/p&gt;
+&lt;/section&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -124,14 +129,16 @@
 				</ul>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">ul</span>&gt;
-	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 1</span>&lt;/<span class="element">li</span>&gt;
-	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 2</span>&lt;/<span class="element">li</span>&gt;
-	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 3</span>&lt;/<span class="element">li</span>&gt;
-	&lt;<span class="element">li</span>&gt;<span class="markup-content">List item 4</span>&lt;/<span class="element">li</span>&gt;
-&lt;/<span class="element">ul</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;ul&gt;
+	&lt;li&gt;List item 1&lt;/li&gt;
+	&lt;li&gt;List item 2&lt;/li&gt;
+	&lt;li&gt;List item 3&lt;/li&gt;
+	&lt;li&gt;List item 4&lt;/li&gt;
+&lt;/ul&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -145,12 +152,14 @@
 				<small>2 June 2013</small>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">h3</span> <span class="attribute">class</span>="<span class="value">data</span>"&gt;<span class="markup-content">Type of content | 02 June 2013</span>&lt;/<span class="element">h3</span>&gt;
-&lt;<span class="element">h3</span> <span class="attribute">class</span>="<span class="value">author</span>"&gt;<span class="markup-content">Author 1, Author 2, Author 3</span>&lt;/<span class="element">h3</span>&gt;
-&lt;<span class="element">h3</span> <span class="attribute">class</span>="<span class="value">isbn</span>"&gt;<span class="markup-content">ISBN: 978-92-807-3189-7</span>&lt;/<span class="element">h3</span>&gt;
-&lt;<span class="element">small</span>&gt;<span class="markup-content">2 June 2013</span>&lt;/<span class="element">small</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;h3 class="data"&gt;Type of content | 02 June 2013&lt;/h3&gt;
+&lt;h3 class="author"&gt;Author 1, Author 2, Author 3&lt;/h3&gt;
+&lt;h3 class="isbn"&gt;ISBN: 978-92-807-3189-7&lt;/h3&gt;
+&lt;small&gt;2 June 2013&lt;/small&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -162,10 +171,12 @@
 				<a class="back_nav" href=""><i class="icon-chevron-left"></i> Back to previous page link</a>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">p</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Generic link</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">p</span>&gt;
-&lt;<span class="element">a</span> <span class="attribute">class</span>="<span class="value">back_nav</span>"&gt;<span class="markup-content">&lt;<span class="element">i</span> <span class="attribute">class</span>="<span class="value">icon-chevron-left</span>"&gt;&lt;/<span class="element">i</span>&gt;Back to previous page link</span>&lt;/<span class="element">a</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;p&gt;&lt;a href=""&gt;Generic link&lt;/a&gt;&lt;/p&gt;
+&lt;a class="back_nav" href=""&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt; Back to previous page link&lt;/a&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -188,21 +199,23 @@
 				</div>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">hero</span>"&gt;	
-	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">heading</span>"&gt;
-			&lt;<span class="element">1</span>&gt;<span class="markup-content">Section message banner</span>&lt;/<span class="element">h1</span>&gt;
-			&lt;<span class="element">h2</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.</span>&lt;/<span class="element">h2</span>&gt;
-	&lt;/<span class="element">div</span>&gt;
-&lt;/<span class="element">div</span>&gt;
-
-&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">hero</span>"&gt;	
-	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">heading featured-project</span>"&gt;
-			&lt;<span class="element">1</span>&gt;<span class="markup-content">Section message banner</span>&lt;/<span class="element">h1</span>&gt;
-			&lt;<span class="element">h2</span>&gt;<span class="markup-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.</span>&lt;/<span class="element">h2</span>&gt;
-	&lt;/<span class="element">div</span>&gt;
-&lt;/<span class="element">div</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="hero"&gt;
+	&lt;div class="heading"&gt;
+		&lt;h1&gt;Section message banner&lt;/h1&gt;
+		&lt;h2&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hero" id="project"&gt;
+	&lt;div class="heading featured-project"&gt;
+		&lt;h1&gt;Project title&lt;/h1&gt;
+		&lt;h2&gt;Tagline briefly defining the project&lt;/h2&gt;
+		&lt;div class="button banner"&gt;&lt;a href=""&gt;Call to action&lt;/a&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -233,29 +246,31 @@
 				</div>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">container</span>"&gt;
-	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">column-1-3</span>"&gt;
-		&lt;<span class="element">ul</span> <span class="attribute">class</span>="<span class="value">subnav</span>"&gt;
-			&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">About us link 1</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">About us link 2</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">About us link 3</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">About us link 4</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-		&lt;/<span class="element">ul</span>&gt;
-	&lt;/<span class="element">div</span>&gt;
-	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">column-1-3</span>"&gt;
-		&lt;<span class="element">ul</span> <span class="attribute">class</span>="<span class="value">subnav</span>" &gt;
-			&lt;<span class="element">li</span> <span class="attribute">class</span>="<span class="value">header</span>"&gt;<span class="markup-content">Expertise header 1</span>&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">ul</span> <span class="attribute">class</span>="<span class="value">expertise</span>"&gt;
-				&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Expertise link 1</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-				&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Expertise link 2</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-				&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Expertise link 4</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-				&lt;<span class="element">li</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Expertise link 5</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">li</span>&gt;
-			&lt;/<span class="element">ul</span>&gt;
-		&lt;/<span class="element">ul</span>&gt;
-	&lt;/<span class="element">div</span>&gt;
-&lt;/<span class="element">div</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="column-1-3"&gt;
+		&lt;ul class="subnav"&gt;
+			&lt;li&gt;&lt;a href="" alt=""&gt;About us link 1&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="" alt=""&gt;About us link 2&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="" alt=""&gt;About us link 3&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="" alt=""&gt;About us link 4&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="column-1-3"&gt;
+		&lt;ul class="subnav"&gt;
+			&lt;li class="header"&gt;Expertise header 1&lt;/li&gt;
+			&lt;ul class="expertise"&gt;
+				&lt;li&gt;&lt;a href="" alt=""&gt;Expertise link 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="" alt=""&gt;Expertise link 2&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="" alt=""&gt;Expertise link 3&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="" alt=""&gt;Expertise link 4&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -294,47 +309,39 @@
 				</div>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">container</span>"&gt;
-	&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">column-1-3</span>"&gt;
-		&lt;<span class="element">select</span> <span class="attribute">id</span>="<span class="value">sorting</span>" &gt;
-			&lt;<span class="element">option</span> <span class="attribute">value</span>="<span class="value">0</span>" <span class="attribute">selected</span>="<span class="value">selected</span>"&gt;<span class="markup-content">
-				Most recent first
-			</span>&lt;/<span class="element">option</span>&gt;
-			&lt;<span class="element">option</span> <span class="attribute">value</span>="<span class="value">1</span>" &gt;<span class="markup-content">
-				Alphabetically
-			</span>&lt;/<span class="element">option</span>&gt;
-		&lt;/<span class="element">select</span>&gt;
-
-		&lt;<span class="element">ul</span> <span class="attribute">id</span>="<span class="value">content</span>" &gt;
-			&lt;<span class="element">li</span> <span class="attribute">class</span>="<span class="value">header</span>"&gt;<span class="markup-content">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="column-1-3"&gt;
+		&lt;select id="sorting"&gt;&lt;option value="0" selected="selected"&gt;Most recent first&lt;/option&gt;&lt;option value="1"&gt;Alphabetically&lt;/option&gt;&lt;/select&gt;
+		&lt;ul id="content"&gt;
+			&lt;li class="header"&gt;
 				Type of content
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">None</span>&lt;/<span class="element">span</span>&gt;
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">|</span>&lt;/<span class="element">span</span>&gt;
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">All</span>&lt;/<span class="element">span</span>&gt;
-			</span>&lt;/<span class="element">li</span>&gt;
-
-			&lt;<span class="element">li</span> <span class="attribute">class</span>="<span class="value">content_type</span>"&gt;<span class="markup-content">
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">0</span>&lt;/<span class="element">span</span>&gt;
-				&lt;<span class="element">p</span>&gt;<span class="markup-content">Content type 1</span>&lt;/<span class="element">p</span>&gt;
-			</span>&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">li</span> <span class="attribute">class</span>="<span class="value">content_type</span>"&gt;<span class="markup-content">
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">0</span>&lt;/<span class="element">span</span>&gt;
-				&lt;<span class="element">p</span>&gt;<span class="markup-content">Content type 2</span>&lt;/<span class="element">p</span>&gt;
-			</span>&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">li</span> <span class="attribute">class</span>="<span class="value">content_type</span>"&gt;<span class="markup-content">
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">0</span>&lt;/<span class="element">span</span>&gt;
-				&lt;<span class="element">p</span>&gt;<span class="markup-content">Content type 3</span>&lt;/<span class="element">p</span>&gt;
-			</span>&lt;/<span class="element">li</span>&gt;
-			&lt;<span class="element">li</span> <span class="attribute">class</span>="<span class="value">content_type</span>"&gt;<span class="markup-content">
-				&lt;<span class="element">span</span> <span class="attribute">class</span>="<span class="value">badge</span>"&gt;<span class="markup-content">0</span>&lt;/<span class="element">span</span>&gt;
-				&lt;<span class="element">p</span>&gt;<span class="markup-content">Content type 4</span>&lt;/<span class="element">p</span>&gt;
-			</span>&lt;/<span class="element">li</span>&gt;
-
-		&lt;/<span class="element">ul</span>&gt;
-	&lt;/<span class="element">div</span>&gt;
-&lt;/<span class="element">div</span>&gt;</pre>
-				</code>
+				&lt;span class="badge"&gt;None&lt;/span&gt;
+				&lt;span class="badge"&gt;|&lt;/span&gt;
+				&lt;span class="badge"&gt;All&lt;/span&gt;
+			&lt;/li&gt;
+			&lt;li class="content_type"&gt;
+				&lt;span class="badge"&gt;0&lt;/span&gt;
+				&lt;p&gt;Content 1&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li class="content_type"&gt;
+				&lt;span class="badge"&gt;0&lt;/span&gt;
+				&lt;p&gt;Content 2&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li class="content_type"&gt;
+				&lt;span class="badge"&gt;0&lt;/span&gt;
+				&lt;p&gt;Content 3&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li class="content_type"&gt;
+				&lt;span class="badge"&gt;0&lt;/span&gt;
+				&lt;p&gt;Content 4&lt;/p&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -358,25 +365,24 @@
 				</div>
 			</div>
 			<div class="pattern-markup">
-				<code>
-<pre>&lt;<span class="element">button</span>&gt;&lt;<span class="element">a</span>&gt;<span class="markup-content">Generic button</span>&lt;/<span class="element">a</span>&gt;&lt;/<span class="element">button</span>&gt;
-
-<pre>&lt;<span class="element">div</span> <span class="attribute">class</span>="<span class="value">button</span>"&gt;
-&lt;<span class="element">a</span>&gt;<span class="markup-content">Generic button</span>&lt;/<span class="element">a</span>&gt;
-&lt;/<span class="element">div</span>&gt;
-
-<pre>&lt;<span class="element">form</span>&gt;
-&lt;<span class="element">button</span> <span class="attribute">type</span>="<span class="value">submit</span>" <span class="attribute">value</span>="<span class="value">Form submit button</span>"&gt;
-&lt;/<span class="element">form</span>&gt;
-
-&lt;<span class="element">section</span> <span class="attribute">class</span>="<span class="value">actions share</span>"&gt;
-	&lt;<span class="element">h1</span>&gt;<span class="markup-content">Heading 1</span>&lt;/<span class="element">h1</span>&gt;
-	&lt;<span class="element">span</span>&gt;
-		&lt;<span class="element">a</span> &gt;<span class="markup-content">&lt;<span class="element">i</span> <span class="attribute">class</span>="<span class="value">icon-envelope</span>"&gt;&lt;/<span class="element">i</span>&gt; Email</span>&lt;/<span class="element">a</span>&gt;
-		&lt;<span class="element">a</span> &gt;<span class="markup-content">&lt;<span class="element">i</span> <span class="attribute">class</span>="<span class="value">icon-twitter</span>"&gt;&lt;/<span class="element">i</span>&gt; Twitter</span>&lt;/<span class="element">a</span>&gt;
-	&lt;/<span class="element">span</span>&gt;
-&lt;/<span class="element">section</span>&gt;</pre>
-				</code>
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;button&gt;&lt;a href=""&gt;Generic button&lt;/a&gt;&lt;/button&gt;
+&lt;div class="button"&gt;&lt;a href=""&gt;Link button&lt;/a&gt;&lt;/div&gt;
+&lt;form&gt;
+	&lt;input name="" type="submit" value="Form submit button"&gt;
+&lt;/form&gt;
+&lt;div class="column-1-3"&gt;
+	&lt;section class="actions share"&gt;
+		&lt;h1&gt;Share&lt;/h1&gt;
+		&lt;span&gt;
+			&lt;a href=""&gt;&lt;i class="icon-envelope"&gt;&lt;/i&gt; Email&lt;/a&gt;
+			&lt;a href=""&gt;&lt;i class="icon-twitter"&gt;&lt;/i&gt; Twitter&lt;/a&gt;
+		&lt;/span&gt;
+	&lt;/section&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -390,6 +396,18 @@
 					<i class="icon-search"></i>
 					</div>
 				</div>
+			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="search-field"&gt;
+	&lt;input class="short" placeholder="Search placeholder text" type="text"&gt;
+	&lt;div class="icon_search"&gt;
+	&lt;i class="icon-search"&gt;&lt;/i&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -427,6 +445,41 @@
 					</section>
 	  			</form>
 			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;form&gt;
+  	&lt;section&gt;
+    	&lt;h2&gt;Text fields&lt;/h2&gt;
+		&lt;input type="text" name="firstname" placeholder="Placeholder with call to action 1"&gt;
+		&lt;input type="text" name="firstname" placeholder="Placeholder with call to action 2"&gt;
+		&lt;input type="text" name="firstname" placeholder="Placeholder with call to action 3"&gt;
+	&lt;/section&gt;
+	&lt;section&gt;
+	    &lt;h2&gt;Checkboxes&lt;/h2&gt;
+	    &lt;p&gt;&lt;label&gt;&lt;input type="checkbox" name="ok" value="ok"&gt; Checkbox option text&lt;/label&gt;&lt;/p&gt;
+	&lt;/section&gt;
+	&lt;section&gt;
+	    &lt;h2&gt;Upload file buttons&lt;/h2&gt;
+		&lt;p&gt;&lt;a href=""&gt;&lt;i class="icon-upload-alt"&gt;&lt;/i&gt; Upload your file&lt;/a&gt;&lt;/p&gt;
+	&lt;/section&gt;
+	&lt;section&gt;
+	    &lt;h2&gt;Text areas for practical question&lt;/h2&gt;
+		&lt;p id="practical-instructions"&gt;Practical question instructions lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.&lt;/p&gt;
+		&lt;textarea name="experience" rows="6"&gt;&lt;/textarea&gt;
+	&lt;/section&gt;
+	&lt;section&gt;
+	    &lt;h2&gt;Radio buttons&lt;/h2&gt;
+	    &lt;p&gt;&lt;label&gt;&lt;input type="radio" name="media" value="UNEP-WCMC website" checked&gt; Option 1&lt;/label&gt;&lt;/p&gt;             
+			&lt;p&gt;&lt;label&gt;&lt;input type="radio" name="media" value="Network email"&gt; Option 2&lt;/label&gt;&lt;/p&gt;
+		 	&lt;p&gt;&lt;label&gt;&lt;input type="radio" name="media" value="Agency"&gt; Option 3&lt;/label&gt;&lt;/p&gt;
+		 	&lt;p class="radio-state"&gt;&lt;label&gt;&lt;input id="other-radio" type="radio" name="media" value="Other"&gt; Other&lt;/label&gt;&lt;/p&gt;
+			&lt;input class="state" type="text" name="state" placeholder="Please state other"&gt;                
+	&lt;/section&gt;
+	&lt;/form&gt;
+					</code>
+				</pre>
+			</div>
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
@@ -455,6 +508,33 @@
 					</ul>
 				</div>
 			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="status" id="ok" style="display: block;"&gt;
+	&lt;div class="message"&gt;
+		&lt;p&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Application sent! You'll shortly receive a confirmation email.
+		&lt;/p&gt;
+		&lt;i class="icon-chevron-up"&gt;&lt;/i&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="status" id="warning" style="display: block;"&gt;
+	&lt;div class="message"&gt;
+		&lt;p&gt;&lt;i class="icon-warning-sign"&gt;&lt;/i&gt; We couldn't save your application, please fix the errors and try again.
+		&lt;/p&gt;
+		&lt;i class="icon-chevron-up"&gt;&lt;/i&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="error-message"&gt;
+	&lt;h2&gt;&lt;i class="icon-warning-sign"&gt;&lt;/i&gt; 2 errors are keeping this submission from being saved&lt;/h2&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Email can't be blank&lt;/li&gt;
+		&lt;li&gt;Email is invalid&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</div>
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
@@ -465,6 +545,16 @@
 					<h1><i class="icon-info-sign"></i> Info message</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.</p>
 				</div>
+			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="info-message"&gt;
+	&lt;h1&gt;&lt;i class="icon-info-sign"&gt;&lt;/i&gt; Info message&lt;/h1&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc enim. Maecenas vel lorem posuere, dapibus nisi nec, tincidunt quam. Nulla mollis odio libero, in volutpat elit bibendum sit amet.&lt;/p&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -480,6 +570,20 @@
 						<p>Main content</p>
 					</div>
 				</div>
+			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="column-1-3 block"&gt;
+		&lt;p&gt;Navigation&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="column-2-3 block"&gt;
+		&lt;p&gt;Main content&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -498,6 +602,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="section-group"&gt;
+		&lt;section class="group "&gt;&lt;p&gt;News item or featured project&lt;/p&gt;&lt;/section&gt;
+		&lt;section class="group "&gt;&lt;p&gt;News item or featured project&lt;/p&gt;&lt;/section&gt;
+		&lt;section class="group "&gt;&lt;p&gt;News item or featured project&lt;/p&gt;&lt;/section&gt;
+		&lt;section class="group "&gt;&lt;p&gt;News item or featured project&lt;/p&gt;&lt;/section&gt;
+		&lt;section class="group "&gt;&lt;p&gt;News item or featured project&lt;/p&gt;&lt;/section&gt;
+		&lt;section class="group "&gt;&lt;p&gt;News item or featured project&lt;/p&gt;&lt;/section&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</div>
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
@@ -513,6 +633,20 @@
 					</div>
 				</div>
 			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="column-1-3"&gt;
+		&lt;p&gt;Calls to action or Employee image&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="column-2-3"&gt;
+		&lt;p&gt;Main content&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</div>			
 		</div>
 		<div class="pattern">
 			<div class="pattern-details">
@@ -527,6 +661,20 @@
 						<p>Related info or info messages</p>
 					</div>
 				</div>
+			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="column-2-3 left"&gt;
+		&lt;p&gt;Main content&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="column-1-3 right"&gt;
+		&lt;p&gt;Related info or info messages&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
 			</div>
 		</div>
 		<div class="pattern">
@@ -552,6 +700,29 @@
 					</div>
 				</div>
 			</div>
+			<div class="pattern-markup">
+				<pre class="language-markup">
+					<code class="language-markup">
+&lt;div class="container"&gt;
+	&lt;div class="column-1-3 block"&gt;
+		&lt;p&gt;Navigation&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="column-2-3"&gt;
+		&lt;div class="section-group"&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+			&lt;section class="group staff "&gt;&lt;p&gt;Employee&lt;/p&gt;&lt;/section&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</div>			
 		</div>
 		<div id="footer_container">
 			<div id="footer">
@@ -566,6 +737,7 @@
 			</div>
 		</div><!--#footer-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/prism.js"></script>
     <script src="js/interactions.js"></script>
 	</body>
 </html>

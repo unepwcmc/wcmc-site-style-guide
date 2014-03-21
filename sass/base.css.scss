@@ -1688,30 +1688,6 @@ div.pattern-markup {
   background: $light_grey;
 }
 
-code {
-  color: #000;
-  font-family: Consolas,Monaco,'Andale Mono',monospace;
-  font-size: 1em;
-  font-weight: lighter;
-}
-
-pre {
-  color: $medium_grey;
-  overflow: scroll;
-  span.element {
-    color: #905;
-  }
-  span.markup-content {
-    color: $grey_text;
-  }
-  span.attribute {
-    color: #690;
-  }
-    span.value {
-    color: #07a;
-  }
-}
-
 div.status.pattern {
   position: relative;
   margin-bottom: 15px;

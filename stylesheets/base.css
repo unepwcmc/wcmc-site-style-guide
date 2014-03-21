@@ -1962,36 +1962,6 @@ div.pattern-markup {
 }
 
 /* line 1691, ../sass/base.css.scss */
-code {
-  color: #000;
-  font-family: Consolas,Monaco,'Andale Mono',monospace;
-  font-size: 1em;
-  font-weight: lighter;
-}
-
-/* line 1698, ../sass/base.css.scss */
-pre {
-  color: #bbbbbb;
-  overflow: scroll;
-}
-/* line 1701, ../sass/base.css.scss */
-pre span.element {
-  color: #905;
-}
-/* line 1704, ../sass/base.css.scss */
-pre span.markup-content {
-  color: #5e5a5c;
-}
-/* line 1707, ../sass/base.css.scss */
-pre span.attribute {
-  color: #690;
-}
-/* line 1710, ../sass/base.css.scss */
-pre span.value {
-  color: #07a;
-}
-
-/* line 1715, ../sass/base.css.scss */
 div.status.pattern {
   position: relative;
   margin-bottom: 15px;
