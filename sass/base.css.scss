@@ -1627,10 +1627,12 @@ div.dashboard {
 }
 
 
-div.pattern, div.pattern-navigation {
-  width: 70%;
-  margin: 50px auto;
+div.pattern {
   border: 1px solid $grey;
+  margin: 50px 0;
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 div.pattern-navigation {
@@ -1693,6 +1695,22 @@ div.status.pattern {
   margin-bottom: 15px;
 }
 
+div.guide-container {
+  overflow: hidden;
+  width: 70%;
+  margin: 50px auto;
+}
 
+div.pattern-navigation {
+  width: 25%;
+  float:right;
+}
 
+div.patterns {
+  width: 70%;
+  float:left;
+}
 
+div.pattern-navigation div.sub-nav-guide {
+  display: none;
+}

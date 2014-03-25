@@ -1889,22 +1889,25 @@ div.dashboard .collapsing {
 }
 
 /* line 1630, ../sass/base.css.scss */
-div.pattern, div.pattern-navigation {
-  width: 70%;
-  margin: 50px auto;
+div.pattern {
   border: 1px solid #dddddd;
+  margin: 50px 0;
+}
+/* line 1633, ../sass/base.css.scss */
+div.pattern:first-child {
+  margin-top: 0;
 }
 
-/* line 1636, ../sass/base.css.scss */
+/* line 1638, ../sass/base.css.scss */
 div.pattern-navigation {
   padding: 20px;
 }
-/* line 1638, ../sass/base.css.scss */
+/* line 1640, ../sass/base.css.scss */
 div.pattern-navigation ul {
   list-style-type: none;
 }
 
-/* line 1643, ../sass/base.css.scss */
+/* line 1645, ../sass/base.css.scss */
 h1.navigation-heading {
   margin: 0;
   font-size: 1.25em;
@@ -1914,13 +1917,13 @@ h1.navigation-heading {
   text-transform: uppercase;
 }
 
-/* line 1652, ../sass/base.css.scss */
+/* line 1654, ../sass/base.css.scss */
 div.pattern-details {
   border-bottom: 1px solid #dddddd;
   background: #f7f7f7;
   padding: 20px;
 }
-/* line 1656, ../sass/base.css.scss */
+/* line 1658, ../sass/base.css.scss */
 div.pattern-details h3.pattern-name {
   margin: 0;
   font-size: 1.25em;
@@ -1929,40 +1932,64 @@ div.pattern-details h3.pattern-name {
   font-family: "museo-sans", Helvetica, Arial, sans-serif;
 }
 
-/* line 1665, ../sass/base.css.scss */
+/* line 1667, ../sass/base.css.scss */
 div.pattern-preview {
   padding: 20px;
 }
-/* line 1667, ../sass/base.css.scss */
+/* line 1669, ../sass/base.css.scss */
 div.pattern-preview div.status {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 1671, ../sass/base.css.scss */
+/* line 1673, ../sass/base.css.scss */
 div.pattern-preview .block {
   background: #dddddd;
   padding: 20px;
   height: 200px;
 }
-/* line 1676, ../sass/base.css.scss */
+/* line 1678, ../sass/base.css.scss */
 div.pattern-preview .container {
   width: 100%;
   margin: 0;
 }
-/* line 1680, ../sass/base.css.scss */
+/* line 1682, ../sass/base.css.scss */
 div.pattern-preview .container .column-1-3.right {
   padding: 20px;
 }
 
-/* line 1685, ../sass/base.css.scss */
+/* line 1687, ../sass/base.css.scss */
 div.pattern-markup {
   padding: 20px;
   border-top: 1px solid #dddddd;
   background: #f7f7f7;
 }
 
-/* line 1691, ../sass/base.css.scss */
+/* line 1693, ../sass/base.css.scss */
 div.status.pattern {
   position: relative;
   margin-bottom: 15px;
+}
+
+/* line 1698, ../sass/base.css.scss */
+div.guide-container {
+  overflow: hidden;
+  width: 70%;
+  margin: 50px auto;
+}
+
+/* line 1704, ../sass/base.css.scss */
+div.pattern-navigation {
+  width: 25%;
+  float: right;
+}
+
+/* line 1709, ../sass/base.css.scss */
+div.patterns {
+  width: 70%;
+  float: left;
+}
+
+/* line 1714, ../sass/base.css.scss */
+div.pattern-navigation div.sub-nav-guide {
+  display: none;
 }
